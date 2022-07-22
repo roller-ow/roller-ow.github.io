@@ -1,0 +1,24 @@
+# baseURL = "https://your_domain.com/"
+languageCode = "ru"
+defaultContentLanguage = "ru"
+title = "Тренер по фигурному катанию🥇"
+enableEmoji = true
+disableKinds = ["taxonomy", "term", "copyrights"]
+
+[author]
+name = "Тренер по фигурному катанию🥇"
+headline = """Приходи на пробную тренировку
+Катание на роликах от 2,5 лет и до 99+"""
+image = "images/logo.jpg"  # path relative to static directory
+
+links = [
+      { instagram = "https://www.instagram.com/roller_ow/" },
+      { whatsapp = "https://wa.me/79998402309?text=Привет,%20хочу%20на%20пробное%20занятие!" },
+      { telegram = "https://t.me/+mk387_rq3Kg3ODAy" },
+      { email = "mailto:irina@roller-ow.ru" },
+]
+
+[module]
+[module.hugoVersion]
+extended = false
+min = "0.86.1"
